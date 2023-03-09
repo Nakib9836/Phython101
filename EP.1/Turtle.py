@@ -1,0 +1,42 @@
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import turtle
+>>> tao=turtle.Pen()
+>>> tao.color('red')
+>>> tao.shape('turtle')
+>>> 
+>>> tao.circle(50)
+>>> tao.right(90)
+>>> tao.forward(100)
+>>> 
+>>> tao.penup()
+>>> tao.goto(-50,-150)
+>>> tao.pendown()
+>>> tao.circle(50)
+>>> 
+>>> tao.penup()
+>>> tao.goto(-50,50)
+>>> tao.pendown()
+>>> tao.right(90)
+>>> tao.forward(100)
+>>> tao.penup()
+>>> tao.goto(-200,100)
+>>> tao.pendown()
+>>> tao.circle(50)
+>>> 
+>>> tao.penup()
+>>> tao.goto(-200,0)
+>>> tao.pendown()
+>>> tao.left(90)
+>>> tao.forward(100)
+>>> tao.penup()
+>>> tao.goto(-250,-150)
+>>> tao.pendown()
+>>> tao.circle(50)
+>>> tao.penup()
+>>> tao.goto(-150,-150)
+>>> tao.left(90)
+>>> tao.forward(100)
+>>> tao.goto(-150,-150)
+>>> tao.pendown()
+>>> tao.forward(100)
